@@ -1,0 +1,64 @@
+[{
+	"It is designed to make sure that a computer system performs well by managing its computational activities." : 1,
+	"It provides an environment for the development and execution of programs." : 1
+},
+
+{
+  	"Mutual Exclusion Condition: It specifies that the resources involved are non-sharable." : 1,
+	"Hold and Wait Condition: It specifies that there must be a process that is holding a resource already allocated to it while waiting for additional resource that are currently being held by other processes." : 1,
+	"No-Preemptive Condition: Resources cannot be taken away while they are being used by processes." : 1,
+	"Circular Wait Condition: It is an explanation of the second condition. It specifies that the processes in the system form a circular list or a chain where each process in the chain is waiting for a resource held by next process in the chain." : 1
+},
+
+{
+	"FCFS stands for First Come, First Served." : 0.5,
+	"It is a type of scheduling algorithm." : 0.5, 
+	"In this scheme, if a process requests the CPU first, it is allocated to the CPU first." : 1, 
+	"Its implementation is managed by a FIFO queue." : 1,
+	"It is simple and easy to understand & implement." : 1,
+	"The process with less execution time suffer i.e. waiting time is often quite long." : 1,
+	"This effect results in lower CPU and device utilization." : 1,
+	"FCFS algorithm is particularly troublesome for time-sharing systems, where it is important that each user get a share of the CPU at regular intervals." : 1
+},
+
+{
+	"Banker's algorithm is used to avoid deadlock. It is the one of deadlock-avoidance method." : 1, 
+	"It is named as Banker's algorithm on the banking system where bank never allocates available cash in such a manner that it can no longer satisfy the requirements of all of its customers." : 1
+},
+
+{
+	"Internal fragmentation: It is occurred when we deal with the systems that have fixed size allocation units." : 1,
+	"External fragmentation: It is occurred when we deal with systems that have variable-size allocation units." : 1
+},
+
+{
+	"Spooling is a process in which data is temporarily gathered to be used and executed by a device, program or the system." : 1,
+	"It is associated with printing. When different applications send output to the printer at the same time, spooling keeps these all jobs into a disk file and queues them accordingly to the printer." : 1
+},
+
+{
+	"Semaphore is a protected variable or abstract data type that is used to lock the resource being used." : 1, 
+	"The value of the semaphore indicates the status of a common resource." : 1,
+	"Binary semaphores Counting semaphores" : 1
+},
+
+{
+	"Belady's Anomaly is also called FIFO anomaly." : 1,
+	"Usually, on increasing the number of frames allocated to a process virtual memory, the process execution is faster, because fewer page faults occur. Sometimes, the reverse happens, i.e., the execution time increases even when more frames are allocated to the process. This is Belady's Anomaly. This is true for certain page reference patterns." : 1
+},
+
+{
+	"Enhance the responsiveness to the users." : 0.5,
+	"Resource sharing within the process." : 0.5,
+	"Economical" : 0.5,
+	"Completely utilize the multiprocessing architecture." : 0.5
+},
+
+{
+	"New Process" : 0.2,
+	"Running Process" : 0.2,
+	"Waiting Process" : 0.2,
+	"Ready Process" : 0.2,
+	"Terminated Process" : 0.2
+}
+]

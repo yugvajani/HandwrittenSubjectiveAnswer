@@ -1,0 +1,8 @@
+Users collection
+- Teacher uid document
+-- subjects collection
+--- Math/english document
+---- question paper collection
+----- MSE1 document
+------ questions collection
+------- q1 document
